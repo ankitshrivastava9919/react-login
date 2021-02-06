@@ -1,0 +1,21 @@
+button{
+  border: none;
+  /* background: blue; */
+  background-color: #1b427d;
+  /* border-radius: 60%; */
+  color: aliceblue;
+}
+.form{
+  display: flex;
+  margin-top: 10px;
+}
+.form input{
+  background-color: #97c0ff;
+  border: none;
+  color: #1b427d;
+}
+.theList{
+  color: #1b427d;
+  list-style-type: circle;
+  margin-right: 8rem;
+}

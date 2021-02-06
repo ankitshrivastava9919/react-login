@@ -1,0 +1,39 @@
+.test{
+    width: 100%;
+    height:100vh;
+    background: white;
+    text-align: center;
+    /* background-color: #1b427d; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* align-items: center; */
+    /* height: 100vh; */
+}
+.clr{
+    background-color: #1b427d;
+    height: 20vh;
+    width: 100%;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.clr h1 img{
+    border-radius: 100%;
+}
+.box{
+    margin-bottom: 50rem;
+    margin-right: 70rem;
+    border: 1px solid black;
+    margin-left: 1rem;
+}
+
+.task__table{
+    display: flex;
+    justify-content: space-around;
+    width: 15rem;
+    
+   
+}

@@ -1,0 +1,106 @@
+.main__div{
+    text-align: center;
+    background-color: #1b427d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.input{
+    position: relative;
+    /* margin: 1rem; */
+    left: 0;
+    margin: 2rem 2rem 0;
+    /* border: 1px solid white; */
+}
+.input input{
+    /* width: 150%; */
+    height: 5vh;
+    padding: .7rem;
+    padding: .2rem 3rem;
+    cursor: pointer;
+    /* z-index: 0; */
+}
+.login{
+    /* margin-left:10% ; */
+    color: white;
+}
+
+.input label {
+    background-color: #1b427d;
+    position: absolute;
+    left: 80px;
+    color: white;
+    text-align: center;
+    top: -1px;
+    font-size: 11px;
+    padding: .1rem;
+}
+.input input{
+    width: 100%;
+    padding: 12px 30px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #fff;
+    outline: white;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+input[type=email],[type=password],[type=text] {
+    width: 100%;
+    padding: 12px 30px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #fff;
+    outline: white;
+    background: transparent;
+    box-sizing: border-box;
+    /* cursor: pointer; */
+  }
+  
+  ::placeholder {
+    color: lightblue;
+    opacity: .2; /* Firefox */
+  }
+  .forget{
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
+    color: white;
+    margin:0 2rem;
+    font-size: 12px;
+    cursor: pointer;
+    /* align-items: center; */
+    text-align: center;
+  }
+  .forget input{
+    cursor: pointer;
+  }
+.forget p{
+    margin: 0;
+    padding: 0;
+}
+.rem{
+    text-align: center;
+    margin-left: -5px;
+    margin-right: 50px;
+}
+  .btn button{
+      font-weight: 800;
+      color: #1b427d;
+      padding: .8rem 3rem;
+      background-color: white;
+      border: 1px solid white;
+  }
+  a{
+      text-decoration: none;
+      margin-top: .5rem;
+      color: white;
+      font-size: 14px;
+  }
+  .mar{
+      margin-bottom:-5px;
+  }
